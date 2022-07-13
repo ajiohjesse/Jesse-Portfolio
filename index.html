@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jesse Ajioh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/af379dd620.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="./images/logo.png" alt="Logo" class="logo" />
+        <nav>
+          <ul>
+            <li>
+              <a href="#" class="link active">Home</a>
+            </li>
+            <li>
+              <a href="#" class="link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#" class="link">Tutorials</a>
+            </li>
+            <li class="hasSubMenu">
+              <a href="#" class="link sub-menu-link">More<i class="fa-solid fa-caret-down"></i></a>
+              
+              <article class="sub-menu">
+                <li>
+                  <a href="#" class="sub-link">Services</a>
+                </li>
+                <li>
+                  <a href="#" class="sub-link">About</a>
+                </li>
+                <li>
+                  <a href="#" class="sub-link">Contact</a>
+                </li>
+              </article>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="hero__container">
+        <div class="hero__text">
+          <div class="hero-circle1"></div>
+          <div class="hero-circle2"></div>
+          <h1>design an experience that works for you.</h1>
+          <button class="hero__btn">Get Quote</button>
+        </div>
+        <div class="hero__img__container">
+          <img src="./images/hero.png" alt="image" class="hero__img" />
+        </div>
+      </div>
+    </section>
+    
+    <section class="services">
+      <div class="heading">
+        <h2>Services</h2>
+        <h5>What can i do for you?</h4>
+      </div>
+      <div class="card__container">
+        <article class="service__card">
+          <i class="fa-solid fa-globe"></i>
+          <h3>Websites / Mobile App Development</h3>
+          <p><b>></b> Fully responsive, search engine optimized 
+            websites for your project, brand or business.<br/><br/>
+            <b>></b> Native android and ios applications 
+            with customizable features to suit your needs.
+          </p>
+        </article>
+        <article class="service__card special">
+          <i class="fa-solid fa-object-group"></i>
+          <h3>UI / UX Design</h3>
+          <p><b>></b> Custom user interface / 
+            experience that can be easily incorporated 
+            into a website, mobile app or used for any other purpose.
+          </p>
+        </article>
+        <article class="service__card">
+          <i class="fa-solid fa-pen-ruler"></i>
+          <h3>Graphics Design</h3>
+          <p><b>></b> Logo designs, flyers, posters, banners
+             and other graphic designs for print or digital use.    
+            <br/><br/>
+            <b>></b> Product design, branding and customization.
+          </p>
+        </article>
+      </div>
+      <button class="service__btn">Get Qoute</button>
+    </section>
+
+    <section class="about"></section>
+    <script src="./javascript/app.js"></script>
+  </body>
+</html>
